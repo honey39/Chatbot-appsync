@@ -6,11 +6,13 @@ This is a full-stack chatbot project that leverages **React** for the frontend a
 
 ## 🔧 Project Structure
 
+```
 chatbot-appsync/
 │
 ├── frontend/ # React + Vite frontend UI
 ├── backend/ # AppSync, Lambda, DynamoDB (planned)
 ├── README.md # (this file) High-level overview
+```
 
 
 
@@ -33,20 +35,22 @@ chatbot-appsync/
    cd chatbot-appsync
    
 2. Navigate into the frontend and run it:
+```
    cd frontend
    npm install
    npm run dev
+```
 
-3. Backend setup will be added in future phases.
+4. Backend setup will be added in future phases.
 
 
 ##  Future Plans
-
+```
 Integrate AWS AppSync with Lambda resolvers
 Connect to DynamoDB for storing conversation history
 Add authentication (Cognito)
 Deploy using Amplify or CloudFormation
-
+```
 ## Author
 Honey John – aspiring data engineer and full-stack developer
 
